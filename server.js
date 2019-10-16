@@ -7,6 +7,9 @@ const app=express();
 mongoclient.connect(url,(err,database)=>{
     if(err)
     console.log(err);
+
+    const database=database.db('QuizApp')
+    require('./routes/index.js')(app,database);
 });
 
 const port=8000;
