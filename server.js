@@ -4,7 +4,10 @@ const url=require('./config/config.js').url;
 
 const app=express();
 
-mongoclient.connect(url);
+mongoclient.connect(url,(err,database)=>{
+    if(err)
+    console.log(err);
+});
 
 const port=8000;
 app.listen(port,(req,res)=>{
