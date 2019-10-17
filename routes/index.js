@@ -1,1 +1,1 @@
-require('./routes')(app,database);
+module.exports=(app,database)=>{require('./routes')(app,database)};

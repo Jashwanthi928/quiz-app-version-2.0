@@ -2,14 +2,15 @@ const express =require('express');
 const mongoclient=require('mongodb').MongoClient;
 const url=require('./config/config.js').url;
 
+
 const app=express();
 
-mongoclient.connect(url,(err,database)=>{
+mongoclient.connect(url,{ useNewUrlParser: true,useUnifiedTopology: true },(err,data)=>{
     if(err)
     console.log(err);
-
-    const database=database.db('QuizApp')
-    require('./routes/index.js')(app,database);
+else{
+    const database=data.db("test");
+    require('./routes/index.js')(app,database);}
 });
 
 const port=8000;
