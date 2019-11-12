@@ -2,7 +2,7 @@ const express =require('express');
 const mongoclient=require('mongodb').MongoClient;
 const url=require('./config/config.js').url;
 
-
+  
 const app=express();
 
 mongoclient.connect(url,{ useNewUrlParser: true,useUnifiedTopology: true },(err,data)=>{
