@@ -1,3 +1,12 @@
 /* Author: Jashwanthi
 Technology used: HTML, CSS, JavaScript, JQuery, Bootstrap
 objective: Create a quiz application */
+.start{
+  width: 92px;
+height: 26px;
+font-family: Ropa Sans;
+color:white;
+border: 0ch;
+background: #13FBED;
+border-radius: 43px;
+}
