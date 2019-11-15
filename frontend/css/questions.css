@@ -1,1 +1,24 @@
+body{
+    width:100% !important;
+    height:100% !important;
+    margin:0% !important;
+    padding: 0% !important;
+}
 
+.logo{
+    width: 10%;
+    height: 10%;
+}
+.timer{
+    margin-right:30%;
+    margin-top: 4%;
+    font-size:2em;
+    color:#2a3362;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin:0%;
+    padding: 0%;
+}
