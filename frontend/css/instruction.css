@@ -14,7 +14,7 @@ th, td {
 .ins{
   margin-left: -1%;
 }
-#next-go
+.next-go
 {
   border: none;
   outline: none;
@@ -28,5 +28,7 @@ th, td {
   border-width: 3px;
   border-radius: 23px;
   margin-left: 90%;
+  text-decoration: none;
+  text-align: center;
 }
 
