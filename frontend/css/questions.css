@@ -22,3 +22,21 @@ body{
     margin:0%;
     padding: 0%;
 }
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 2em;
+}
+
+
+.quit{
+    width: 80px;
+    height: 40px;
+    background: #EFF2FF;
+    border: 1px solid #2A3362;
+    box-sizing: border-box;
+    border-radius: 25px;
+    font-size: 0.75em;
+    line-height: 12px;
+
