@@ -2,9 +2,17 @@
 table, tr {
   border: 1px solid black;
   border-collapse: collapse;
+  
 }
 th, td {
   padding: 15px;
+}
+.heading{
+  margin-top:8%;
+  margin-left: 1%;
+}
+.ins{
+  margin-left: -1%;
 }
 #next-go
 {
@@ -19,4 +27,5 @@ th, td {
   background-color:gray ;
   border-width: 3px;
   border-radius: 23px;
+  margin-left: 90%;
 }
