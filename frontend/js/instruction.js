@@ -8,7 +8,9 @@ $(document).ready(function(){
           localStorage.setItem("questionsArray",JSON.stringify(data))
           console.log("ajax call")
         },
-        
+        error:() => {
+            console.log("error")
+         }
         })
     });
   
