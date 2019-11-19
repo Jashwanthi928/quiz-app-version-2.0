@@ -4,6 +4,9 @@ const mongoose=require('mongoose');
 const Schema=mongoose.Schema;
 const questions=require('../models/questions');
 
+const cors=require('cors');
+const app=express();
+app.use(cors());
 
 router.get('/',(req,res)=>{
 questions.find({})
