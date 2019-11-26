@@ -30,4 +30,18 @@ let timer = ()=>{
       });
   let i=0;
   let j=0;
+  $("#nxticon").click( ()=>{
+        console.log("forward"+i);
+        console.log(d[0]["General science"]) 
+        if(i<10) {
+        document.getElementById("question").innerHTML=d[0]["General science"][i]["question"];
+        document.getElementById("option1").innerHTML=d[0]["General science"][i]["1"];
+        document.getElementById("option2").innerHTML=d[0]["General science"][i]["2"];
+        document.getElementById("option3").innerHTML=d[0]["General science"][i]["3"];
+        document.getElementById("option4").innerHTML=d[0]["General science"][i]["4"];
+        i++;
+        j=i-1;
+        }
+        } );
+
   
