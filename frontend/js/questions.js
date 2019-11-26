@@ -44,4 +44,16 @@ let timer = ()=>{
         }
         } );
 
-  
+  $("#backicon").click( ()=>{
+    console.log("backward"+j);
+        if(j>0) { 
+          j-- 
+          i--
+        document.getElementById("question").innerHTML=d[0]["General science"][j]["question"];
+        document.getElementById("option1").innerHTML=d[0]["General science"][j]["1"];
+        document.getElementById("option2").innerHTML=d[0]["General science"][j]["2"];
+        document.getElementById("option3").innerHTML=d[0]["General science"][j]["3"];
+        document.getElementById("option4").innerHTML=d[0]["General science"][j]["4"];
+        }
+        } );
+       
