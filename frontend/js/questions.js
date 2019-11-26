@@ -24,4 +24,8 @@ let timer = ()=>{
 
       let d=displayquestions(data);
 
+  $(document).ready(()=>{
+       $('#nxticon').click();
+       timer()
+      });
   
