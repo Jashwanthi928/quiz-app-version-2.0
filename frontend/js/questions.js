@@ -80,5 +80,9 @@ let timer = ()=>{
       }
       console.log(result);
     }
-    
+    // console.log(result);
+    function add(a,b){
+      return a+b;
+      }
+
       
