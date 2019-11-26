@@ -71,4 +71,14 @@ let timer = ()=>{
               console.log(result.reduce(add));
         }
  let result=[];
+    function resultValue(){
+      if(selectedOptionArray[i-1]==originalAnswerArray[i-1]){
+        result[i-1]=1;
+      }
+      else{
+        result[i-1]=0;
+      }
+      console.log(result);
+    }
     
+      
