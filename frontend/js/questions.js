@@ -70,4 +70,5 @@ let timer = ()=>{
               resultValue()
               console.log(result.reduce(add));
         }
- 
+ let result=[];
+    
