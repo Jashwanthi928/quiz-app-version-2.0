@@ -56,4 +56,8 @@ let timer = ()=>{
         document.getElementById("option4").innerHTML=d[0]["General science"][j]["4"];
         }
         } );
+        let selectedOptionArray=[];
+        console.log(selectedOptionArray);
+        let originalAnswerArray=[];
+        console.log(originalAnswerArray);
        
