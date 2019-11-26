@@ -22,4 +22,6 @@ let timer = ()=>{
      return data=JSON.parse(localStorage.getItem("questionsArray"));
       }
 
-      
+      let d=displayquestions(data);
+
+  
