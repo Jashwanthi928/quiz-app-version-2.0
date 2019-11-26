@@ -1,5 +1,5 @@
 let timer = ()=>{
-  console.log("Timer")
+  console.log("here")
  let timer2 = "1:00";
  let interval = setInterval(() =>{
 
@@ -17,4 +17,9 @@ let timer = ()=>{
 }, 1000);
 }
    
-   
+   let data;
+    function displayquestions(data){
+     return data=JSON.parse(localStorage.getItem("questionsArray"));
+      }
+
+      
