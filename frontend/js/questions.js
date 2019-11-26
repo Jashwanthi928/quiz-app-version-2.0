@@ -60,4 +60,14 @@ let timer = ()=>{
         console.log(selectedOptionArray);
         let originalAnswerArray=[];
         console.log(originalAnswerArray);
-       
+        // let result=0;
+        function compareValue(idx) {
+              let answer = d[0]["General science"][i-1]["ans"];
+              originalAnswerArray[i-1]=answer;
+              let  selectedOption1= $("#option"+idx).text();
+              console.log(selectedOption1);
+              selectedOptionArray[i-1]=selectedOption1;
+              resultValue()
+              console.log(result.reduce(add));
+        }
+ 
