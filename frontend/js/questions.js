@@ -12,7 +12,9 @@ let timer = ()=>{
  if (minutes < 0) clearInterval(interval);
  seconds = (seconds < 0) ? 59 : seconds;
  seconds = (seconds < 10) ? '0' + seconds : seconds;
- 
+ $('.timer').html(minutes + ':' + seconds);
+ timer2 = minutes + ':' + seconds;
+}, 1000);
 }
    
    
